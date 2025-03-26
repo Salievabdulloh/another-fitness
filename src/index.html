@@ -148,9 +148,9 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
                     <p class="text-[20px]"> years</p>
                 </div>
             </div>
-            <div class="flex gap-[30px]">
+            <div class="flex gap-[30px] justify-center">
                 <div
-                    class="px-[30px] pt-[30px] pb-[40px] bg-[#F95A2C] border-[3px] border-black rounded-[10px] tab:w-[278px]">
+                    class="px-[30px] pt-[30px] hidden tab:block pb-[40px] bg-[#F95A2C] border-[3px] border-black rounded-[10px] tab:w-[278px]">
                     <p class="text-[18px] mb-5">Free Plan</p>
                     <p class="text-[30px] mb-[30px]">$0 mounth</p>
                     <p class="text-[18px] mb-[10px]">5 Email</p>
@@ -162,7 +162,7 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
                         started</button>
                 </div>
                 <div
-                    class="px-[30px] pt-[30px] pb-[40px] bg-[#1BDBC4] border-[3px] border-black rounded-[10px] tab:w-[278px]">
+                    class="px-[30px] pt-[30px] hidden tab:block pb-[40px] bg-[#1BDBC4] border-[3px] border-black rounded-[10px] tab:w-[278px]">
                     <p class="text-[18px] mb-5">Free Plan</p>
                     <p class="text-[30px] mb-[30px]">$5 mounth</p>
                     <p class="text-[18px] mb-[10px]">5 Email</p>
@@ -174,7 +174,7 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
                         started</button>
                 </div>
                 <div
-                    class="px-[30px] pt-[30px] pb-[40px] bg-[#962EFF] border-[3px] border-black rounded-[10px] tab:w-[278px]">
+                    class="px-[30px] pt-[30px] hidden tab:block pb-[40px] bg-[#962EFF] border-[3px] border-black rounded-[10px] tab:w-[278px]">
                     <p class="text-[18px] mb-5">Free Plan</p>
                     <p class="text-[30px] mb-[30px]">$9 mounth</p>
                     <p class="text-[18px] mb-[10px]">5 Email</p>
@@ -202,7 +202,27 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
     </main>
 
-    <footer></footer>
+
+
+    <footer class="bg-[#7711DD] text-white py-[42px] px-[120px] tab:flex items-center justify-between">
+        <p class="bg-[#1BDBC4] text-[20px] mb-[20px] rounded-[6px] text-white py-3 px-[6px]">Easy</p>
+        <div class="tab:flex mb-[20px] items-center gap-[34px]">
+            <p class="text-[17px] font-bold">About</p>
+            <p class="text-[17px] font-bold">Pricing</p>
+            <p class="text-[17px] font-bold">Manual</p>
+        </div>
+        <div class="tab:flex mb-[20px] gap-[30px] items-center">
+            <button
+                class="mb-[20px] tab:mb-0 flex items-center rounded-[10px] border-[3px] border-black py-[11px] px-[31px] bg-[#FFBD12] text-white font-bold"><img
+                    src="img/Shape.png">Download</button>
+            <button
+                class="flex items-center rounded-[10px] border-[3px] border-black py-[11px] px-[31px] bg-[#FFBD12] text-white font-bold"><img
+                    src="img/Play market icon.png">Download</button>
+        </div>
+    </footer>
+
+
+
 </body>
 
 </html>
